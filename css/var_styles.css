@@ -1,0 +1,12 @@
+h1, h2 {
+  color: red; }
+
+#mypara {
+  font-size: 23px;
+  border: 1px solid red;
+  padding: 15px 15px 15px 15px; }
+
+#mypara::after {
+  content: " sidhasd"; }
+
+/*# sourceMappingURL=var_styles.css.map */

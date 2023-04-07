@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+  body p {
+    font-family: 'Times New Roman', Times, serif; }
+  body p#mypara {
+    font-family: 'Courier New', Courier, monospace; }
+
+#mypara {
+  color: yellow;
+  border: 1px solid;
+  padding: 10px; }
+  #mypara:hover {
+    color: green; }
+
+/*# sourceMappingURL=nested.css.map */

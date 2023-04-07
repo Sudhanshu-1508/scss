@@ -1,0 +1,13 @@
+header {
+  color: blue;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+footer {
+  color: rebeccapurple;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+/*# sourceMappingURL=mixin.css.map */

@@ -1,0 +1,11 @@
+$gender:boy;
+$mycolor: if($gender == "boy", #00f, #f00);
+$basePadding:10px;
+$baseThickness: 4px;
+
+#mypara{
+   // color: $mycolor + #00f;
+   color: $mycolor; 
+   border: ($baseThickness + 10) /2 color $mycolor;
+    padding: $basePadding $basePadding+15;
+}
