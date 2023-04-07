@@ -1,0 +1,22 @@
+//user-defined value
+@mixin customBorder ($width, $color, $style) {
+    border: {
+        width: $width;
+        color: $color;
+        style:$style;
+    }
+}
+
+#mypara {
+    @include customBorder(3px, blue , dotted );
+}
+
+
+//default values
+@mixin customBorder2 ($width:1px, $color:black, $style:solid) {
+    border: {
+        width: $width;
+        color: $color;
+        style: $style;
+    }
+}

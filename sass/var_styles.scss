@@ -1,0 +1,19 @@
+$myColor: red;
+$thinBorder: 1px solid $myColor;
+$myfontSize: 23px;
+$paddingVar: 15px 15px 15px 15px;
+$myStringVar: " sidhasd";
+
+h1, h2 {
+    color: $myColor;
+}
+
+#mypara {
+    font-size: $myfontSize;
+    border: $thinBorder;
+    padding: $paddingVar;
+}
+
+#mypara::after{
+    content: $myStringVar;
+}

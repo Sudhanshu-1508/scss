@@ -1,0 +1,24 @@
+h1 {
+  color: navy;
+  background-color: #bfbfbf; }
+
+h2 {
+  color: #1a1aff; }
+
+h3 {
+  color: #4d4dff; }
+
+h4 {
+  color: #8080ff; }
+
+#mypara {
+  -mox-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #6b6bc7;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px; }
+
+/*# sourceMappingURL=functions.css.map */
